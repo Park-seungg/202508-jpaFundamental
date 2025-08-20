@@ -58,3 +58,9 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
 	... 54 more
+2025-08-20 14:10:48.297297+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* FROM POST"; expected "identifier"; SQL statement:
+delete * FROM POST [42001-232]
+2025-08-20 14:10:53.867532+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]

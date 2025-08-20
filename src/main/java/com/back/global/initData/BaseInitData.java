@@ -27,7 +27,7 @@ public class BaseInitData {
             postRepository.save(post);
 
             Post post2 = new Post();
-            post.setTitle("제목2");
+            post2.setTitle("제목2");
 
             postRepository.save(post2);
 
