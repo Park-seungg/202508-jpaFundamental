@@ -1,1 +1,8 @@
-spring.application.name=202508-jpaFundamental
+spring:
+  application:
+    name: 202508-jpaFundamental
+  dataSource:
+    url: jdbc:h2:./db_dev;Mode=MySQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
