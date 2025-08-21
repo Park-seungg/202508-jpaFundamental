@@ -24,3 +24,4 @@ logging:
     org.hibernate.orm.jdbc.bind: TRACE
     # SQL 실행 후 조회 결과 확인용 로그
     org.hibernate.orm.jdbc.extract: TRACE
+    org.springframework.transaction.interceptor: TRACE
