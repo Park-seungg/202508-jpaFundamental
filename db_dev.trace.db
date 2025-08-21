@@ -64,3 +64,33 @@ delete * FROM POST [42001-232]
 2025-08-20 14:10:53.867532+09:00 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
 DELETE * FROM POST [42001-232]
+2025-08-21 09:22:29.806512+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:22:59.218693+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:13.621320+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:14.838825+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:15.016413+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:15.195324+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:15.371112+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:15.535996+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:15.688234+09:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]* FROM POST"; expected "identifier"; SQL statement:
+DELETE * FROM POST [42001-232]
+2025-08-21 09:23:43.769488+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* FROM POST"; expected "identifier"; SQL statement:
+delete * FROM POST [42001-232]
