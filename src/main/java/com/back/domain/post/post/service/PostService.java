@@ -27,9 +27,19 @@ public class PostService {
     }
 
     public void modify(Post post, String title, String content){
-        post.setTitle(title);
-        post.setContent(content);
-        post.setModifyDate(LocalDateTime.now());
+        boolean isChanged = false;
+
+        if (!post.getTitle().equals(title)) {
+            post.setTitle(title);
+            isChanged = true;
+        }
+
+        if (!post.getContent().equals(content)) {
+            post.setContent(content);
+            isChanged = true;
+        }
+
+        if (isChanged) post.setModifyDate(LocalDateTime.now());
 
         postRepository.save(post);
         // UPDATE post SET title = '제목 1', content = '내용 1', modify_date = '2025-08-22 10:19:31' WHERE id = 1;
