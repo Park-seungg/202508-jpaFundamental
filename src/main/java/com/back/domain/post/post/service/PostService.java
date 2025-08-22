@@ -29,7 +29,7 @@ public class PostService {
             post.setTitle(title);
             post.setContent(content);
 
-        postRepository.save(post);
+        // postRepository.save(post);
         // UPDATE post SET title = '제목 1', content = '내용 1', modify_date = '2025-08-22 10:19:31' WHERE id = 1;
     }
 
