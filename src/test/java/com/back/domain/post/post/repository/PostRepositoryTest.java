@@ -15,7 +15,7 @@ public class PostRepositoryTest {
 
     @Test
     @DisplayName("2번 글 조회")
-    void t1 () {
+    void t1() {
         Post post2 = postRepository.findById(2).get();
 
         assertThat(post2.getTitle()).isEqualTo("제목 2");
@@ -33,5 +33,12 @@ public class PostRepositoryTest {
         assertThat(post.getId()).isGreaterThan(0);
         assertThat(post.getTitle()).isEqualTo("새 제목");
         assertThat(post.getContent()).isEqualTo("새 내용");
+    }
+
+    @Test
+    @DisplayName("글 조회")
+    void t3() {
+        long count = postRepository.count();
+        assertThat(count).isEqualTo(8); // 현재 글이 8개 있다고 가정
     }
 }
