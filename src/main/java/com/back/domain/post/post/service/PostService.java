@@ -34,4 +34,10 @@ public class PostService {
         postRepository.save(post);
         // UPDATE post SET title = '제목 1', content = '내용 1', modify_date = '2025-08-22 10:19:31' WHERE id = 1;
     }
+
+    public Post write(String title, String content) {
+        Post post = new Post(title, content);
+
+        return postRepository.save(post);
+    }
 }
